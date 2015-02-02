@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="sea" tilewidth="32" tileheight="32">
+  <image source="sea.png" trans="ff00ff" width="650" height="512"/>
+  <tile id="1">
+   <properties>
+    <property name="tag" value="0"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="tag" value="0"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="tag" value="1"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="tag" value="2"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="tag" value="3"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="tag" value="4"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="tag" value="5"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="tag" value="6"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="ground" width="20" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACw3DB5QIBAAA0CN7k+POvDtucOadPQ/ZOzsiI2Rmk63M7L2z9x6ZWVklW/bMKFtRWcV/7//AgICADGY0yGAzmdksZjWb2Q0x1DBzmNNwI4w0ylzmNto85jWf+S1gQWOMtZCFLWJRi1ncEpa0lKUtY1njLGd5K/iRFa1kZatY1WpWt4Y1rWVt61jXj61nfRvY0EY2tomf2NRmfmpzW/iZLW1la9v4uW1tZ3u/sIMd7WRnu9jVL+1md3vY0172to997edX9neAAx3kYIc41GF+7TcOd4QjHeVox/itYx3neCc40UlOdopTneZ0ZzjTWc52jnOd53y/c4ELXeRil7jUZS53hStd5WrXuNZ1rneDG93kZre41e/d5nZ3uNNd7vYH97jXfe73gD960EMe9ohH/cmfPeYvHveEJz3lac941nP+6nkveNFLXvaKV73mdW9401v+5m3veNd7/u4f3veBD33kY5/41Gf+6V8+94V/+4//+tJXvvaNb/3P/31nQDyM7wcmMKGJTGwSk5rM5KYwpalMbRrTms4PTW+gGcxokMFmMrNZzGo2sxtiqGHmMKfhRhhplLnMbbR5zGs+81vAgsYYayELW8SiFrO4JSxpKUtbxrLG+R5w3tZnsAQAAA==
+  </data>
+ </layer>
+ <layer name="way" width="20" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjgDLAAcTMQMyEQ54dKg/CnESYBzOHE0kfMmbCopYY84gBxKjlJMFMaqkDyRMbfiCAHObYMAeR5gw2AADYeiFNsAQAAA==
+  </data>
+ </layer>
+</map>
